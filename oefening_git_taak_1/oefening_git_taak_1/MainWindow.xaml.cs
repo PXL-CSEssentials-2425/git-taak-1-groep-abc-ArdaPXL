@@ -28,8 +28,13 @@ namespace oefening_git_taak_1
         {
             this.Background = PXLImage.Source != null ? new SolidColorBrush(Colors.LightBlue) : new SolidColorBrush(Colors.LightGray);
         }
+        private void PXLImage_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
 
         // MouseLeave event for the PXL Image (Reset background)
-        
+
     }
 }
