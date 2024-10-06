@@ -22,26 +22,7 @@
        MouseEnter="PXLImage_MouseEnter"
        MouseLeave="PXLImage_MouseLeave"/>
 
-        <!-- Green Color -->
-        <Button Name="GreenButton"
-                Content="Green" 
-                Click="ColorButton_Click" Margin="421,271,296,93"/>
-        <!-- Red Color -->
-        <Button Name="RedButton"
-                Content="Red" 
-                Click="ColorButton_Click" 
-                RenderTransformOrigin="-2.181,1.672" 
-                Margin="283,271,439,93"/>
-        <!-- Yellow Color -->
-        <Button Name="YellowButton" 
-                Content="Yellow"
-                Click="ColorButton_Click" 
-                Margin="421,167,296,200"/>
-        <!-- Blue Color -->
-        <Button Name="BlueButton" 
-                      Content="Blue"
-                      Click="ColorButton_Click" 
-                      Margin="283,167,439,200"/>
+     
 
         
 
