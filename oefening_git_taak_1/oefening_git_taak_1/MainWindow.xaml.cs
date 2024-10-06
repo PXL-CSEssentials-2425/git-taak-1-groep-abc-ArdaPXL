@@ -32,6 +32,26 @@ namespace oefening_git_taak_1
         {
             this.Background = new SolidColorBrush(Colors.LightGray);
         }
+        private void ColorButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender == GreenButton)
+            {
+
+                ShowColorInfo("#008000", "Groen is de kleur van genezing.", "Groen.png");
+            }
+            else if (sender == RedButton)
+            {
+                ShowColorInfo("#FF0000", "Rood is de kleur van warmte.", "Rood.png");
+            }
+            else if (sender == YellowButton)
+            {
+                ShowColorInfo("#FFFF00", "Geel is de kleur van levenslust.", "Geel.png");
+            }
+            else if (sender == BlueButton)
+            {
+                ShowColorInfo("#0000FF", "Blauw is de kleur van intelligentie.", "Blauw.png");
+            }
+        }
 
         // MouseLeave event for the PXL Image (Reset background)
 
