@@ -56,6 +56,13 @@
                    Margin="10, 50, 10, 30" 
                    Text="Klik op een kleur voor meer informatie."/>
 
+        <Image Name="ColorImageDisplay" 
+               Width="128" 
+               Height="110" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top" 
+               Margin="322,47,0,0"/>
+
 
     </Grid>
 </Window>

@@ -52,8 +52,13 @@ namespace oefening_git_taak_1
                 ShowColorInfo("#0000FF", "Blauw is de kleur van intelligentie.", "Blauw.png");
             }
         }
-
+        // Helper function to update color code and information text
+        private void ShowColorInfo(string colorCode, string colorInfo, string imagePath)
+        {
+            ColorCodeText.Text = $"Kleurcode: {colorCode}";
+            ColorInfoText.Text = colorInfo;
+            ColorImageDisplay.Source = new BitmapImage(new Uri(imagePath, UriKind.Relative));
+        }
         // MouseLeave event for the PXL Image (Reset background)
-
     }
 }
