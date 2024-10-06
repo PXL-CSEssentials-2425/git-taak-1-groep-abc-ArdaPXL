@@ -24,14 +24,7 @@ namespace oefening_git_taak_1
         {
             InitializeComponent();
         }
-        private void PXLImage_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            this.Background = PXLImage.Source != null ? new SolidColorBrush(Colors.LightBlue) : new SolidColorBrush(Colors.LightGray);
-        }
-        private void PXLImage_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            this.Background = new SolidColorBrush(Colors.LightGray);
-        }
+        
         
         // Helper function to update color code and information text
        
